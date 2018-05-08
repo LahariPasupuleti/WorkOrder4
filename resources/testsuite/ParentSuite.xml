@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MainSuite" preserve-order="true">
+    <suite-files>
+        <suite-file path="D:\Latest April 23rd,2018\JohnDeereAutomation\resources\testsuite\ChildSuite1.xml" ></suite-file>
+   <suite-file path="D:\Latest April 23rd,2018\JohnDeereAutomation\resources\testsuite\ChildSuite2.xml" ></suite-file>
+        <suite-file path="D:\Latest April 23rd,2018\JohnDeereAutomation\resources\testsuite\ChildSuite3.xml" ></suite-file>
+  </suite-files>
+</suite>

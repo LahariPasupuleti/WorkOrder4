@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Sample Suite]">
+  <listeners>
+    <listener class-name="com.incessant.uiautomation.util.extentreport"/>
+  </listeners>
+  <test name=" WebForm_forJDParts_US31546">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.WebForm_forJDParts_US31546"/>
+    </classes>
+  </test> <!--  WebForm_forJDParts_US31546 -->
+  <test name=" US21363_SendCaseEmail">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.US21363_SendCaseEmail"/>
+    </classes>
+  </test> <!--  US21363_SendCaseEmail -->
+  <test name=" US21361_TC01_GSC_validateEmail">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.US21361_TC01_GSC_validateEmail"/>
+    </classes>
+  </test> <!--  US21361_TC01_GSC_validateEmail -->
+  <test name=" US31544_TC01_GSC_SaharaSouthAfrica">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.US31544_TC01_GSC_SaharaSouthAfrica"/>
+    </classes>
+  </test> <!--  US31544_TC01_GSC_SaharaSouthAfrica -->
+  <test name=" US31548_TC01_GSC_R4TurfTier1">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.US31548_TC01_GSC_R4TurfTier1"/>
+    </classes>
+  </test> <!--  US31548_TC01_GSC_R4TurfTier1 -->
+  <test name=" Deere_US31551">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.Deere_US31551"/>
+    </classes>
+  </test> <!--  Deere_US31551 -->
+  <test name=" JDLink_US31545">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.JDLink_US31545"/>
+    </classes>
+  </test> <!--  JDLink_US31545 -->
+  <test name=" WebForm_forJDParts_US31546(failed)">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.WebForm_forJDParts_US31546">
+        <methods>
+          <include name="JDPartsWebformCCMSDetails"/>
+        </methods>
+      </class> <!-- com.incessant.uiautomation.pages.WebForm_forJDParts_US31546 -->
+    </classes>
+  </test> <!--  WebForm_forJDParts_US31546(failed) -->
+  <test name=" US31544_TC01_GSC_SaharaSouthAfrica(failed)">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.US31544_TC01_GSC_SaharaSouthAfrica">
+        <methods>
+          <include name="US31544_TC01_GSC_SaharaSouthAfrica"/>
+        </methods>
+      </class> <!-- com.incessant.uiautomation.pages.US31544_TC01_GSC_SaharaSouthAfrica -->
+    </classes>
+  </test> <!--  US31544_TC01_GSC_SaharaSouthAfrica(failed) -->
+  <test name=" JDLink_US31545(failed)">
+    <classes>
+      <class name="com.incessant.uiautomation.pages.JDLink_US31545">
+        <methods>
+          <include name="Newurlopenforcustomer"/>
+        </methods>
+      </class> <!-- com.incessant.uiautomation.pages.JDLink_US31545 -->
+    </classes>
+  </test> <!--  JDLink_US31545(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

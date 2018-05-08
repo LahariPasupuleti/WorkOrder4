@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChileSuite2 Suite" thread-count="4"  >
+<listeners>
+        <listener class-name="com.incessant.uiautomation.util.extentreport"/>
+        
+    </listeners>
+
+<test name=" US31550_Techpubs_support">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US31550_Techpubs_support">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" WebForm_forJDParts_US31546">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.WebForm_forJDParts_US31546">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" US21363_SendCaseEmail">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US21363_SendCaseEmail">
+       </class>       
+    </classes>
+ </test> 
+   <test name=" US21361_TC01_GSC_validateEmail">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US21361_TC01_GSC_validateEmail">
+       </class>       
+    </classes>
+ </test> 
+ </suite>

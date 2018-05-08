@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChileSuite1 " thread-count="4"  >
+<listeners>
+        <listener class-name="com.incessant.uiautomation.util.extentreport"/>
+        
+    </listeners>
+<test name=" Webform_forAgronomy_US31549">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.Webform_forAgronomy_US31549">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" Webform_forIndia_US31541">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.Webform_forIndia_US31541">
+       </class>       
+    </classes>
+ </test>  
+ <test name=" US31540_Stellar_support">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US31540_Stellar_support">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" US31547_R4Agcc_support">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US31547_R4Agcc_support">
+       </class>       
+    </classes>
+ </test> 
+ </suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChileSuite2 Suite" thread-count="4" >
+<listeners>
+        <listener class-name="com.incessant.uiautomation.util.extentreport"/>
+        
+    </listeners>
+    <test name=" US31544_TC01_GSC_SaharaSouthAfrica">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US31544_TC01_GSC_SaharaSouthAfrica">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" US31548_TC01_GSC_R4TurfTier1">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.US31548_TC01_GSC_R4TurfTier1">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" Deere_US31551">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.Deere_US31551">
+       </class>       
+    </classes>
+ </test> 
+ <test name=" JDLink_US31545">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.JDLink_US31545">
+       </class>       
+    </classes>
+ </test> 
+   
+</suite>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Roles>
+	<Role name="Manager">
+		<Menus>
+			<MenuItem>
+				<name>Dashboard</name>
+			</MenuItem>
+			<MenuItem>
+				<name>My Work</name>
+			</MenuItem>
+			<MenuItem>
+				<name>My Teams</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Calendar</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Reports</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Tags</name>
+			</MenuItem>
+		</Menus>
+	</Role>
+	<Role name="User">
+		<Menus>
+			<MenuItem>
+				<name>My Work</name>
+			</MenuItem>
+			<MenuItem>
+				<name>My Teams</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Cases</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Calendar</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Tags</name>
+			</MenuItem>
+		</Menus>
+	</Role>
+	<Role name="Administrator">
+		<Menus>
+			<MenuItem>
+				<name>My Work</name>
+			</MenuItem>
+			<MenuItem>
+				<name>My Teams</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Cases</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Calendar</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Tags</name>
+			</MenuItem>
+		</Menus>
+	</Role>
+	<Role name="InactiveUser">
+		<Menus>
+			<MenuItem>
+				<name>My Work</name>
+			</MenuItem>
+			<MenuItem>
+				<name>My Teams</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Cases</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Calendar</name>
+			</MenuItem>
+			<MenuItem>
+				<name>Tags</name>
+			</MenuItem>
+		</Menus>
+	</Role>
+</Roles>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Status_Actions" verbose="1" parallel="false" >
+<listeners>
+        <listener class-name="com.incessant.uiautomation.util.extentreport"/>
+    </listeners>
+   <test name="createGSCCaseByUser">
+    <classes>
+       <class name="com.incessant.uiautomation.pages.TestNewGSCCase">
+       </class>       
+    </classes>
+   </test> 
+  </suite>

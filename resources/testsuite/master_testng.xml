@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IncessantTestAutomationMasterSuite" preserve-order="true">
+    <suite-files>
+        <suite-file path="../testsuite/testng_menus_manager.xml" ></suite-file>
+        <suite-file path="../testsuite/testng_menus_user.xml" ></suite-file>
+        <suite-file path="../testsuite/testng_security-matrix_manager.xml" ></suite-file>
+        <suite-file path="../testsuite/testng_security-matrix_inactiveuser.xml" ></suite-file>
+        <suite-file path="../testsuite/testng_security-matrix_user.xml" ></suite-file>
+        <suite-file path="../testsuite/testng_pal_and_clip.xml" ></suite-file>
+        <suite-file path="../testsuite/testng_run_activity.xml" ></suite-file>
+    </suite-files>
+</suite>

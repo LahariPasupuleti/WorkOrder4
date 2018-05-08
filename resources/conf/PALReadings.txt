@@ -1,0 +1,32 @@
+5.34:Total Elapsed time for the reading:
+0.02:Elapsed time accessing non-rule-resolved instances from database:
+0.01:Elapsed time retrieving rule-resolved Rules from the database:
+0.01:Elapsed time executing Declarative Rules:
+0.00:Total Elapsed time building Declarative Networks:
+0.00:Elapsed time constructing Declarative Networks:
+0.00:Elapsed time retrieving Declarative Rules:
+0.00:Elapsed time retrieving non-Rule database lists:
+0.00:Elapsed time processing Storage Streams for non-Rule database lists:
+0.00:Elapsed time retrieving Rule database lists:
+0.00:Elapsed time processing Storage Streams for Rule database lists:
+0.00:Elapsed time inferring the Java:
+0.00:Elapsed time inferring the Java (High Level):
+0.00:Elapsed time performing Rule assembly:
+0.00:Elapsed time performing Rule assembly (High Level):
+0.00:Elapsed time spent determining if existing Rule assembly cache entry is applicable to user:
+0.00:Elapsed time generating Java:
+0.00:Elapsed time compiling Rules:
+0.00:Elapsed time checking Java syntax:
+0.00:Elapsed time spent determining if a declarative page exists:
+0.18:Elapsed time spent loading declarative pages:
+0.00:Elapsed time spent determining if a page name is in the declarative page cache:
+0.00:Elapsed time spent performing BLOB encryption:
+0.00:Elapsed time spent performing BLOB decryption:
+0.00:Elapsed time spent in loading FUAEntry/AssembledClass from Memory(Cache Hit/Miss):
+0.00:Elapsed time spent in loading FUAEntry/AssembledClass from Database(Cache Hit/Miss):
+0.00:Elapsed time spent in writing FUAEntry/AssembledClass to Database:
+2.72:Elapsed time spent executing a database RDB operation:
+1.23:Elapsed time executing Connect Rules:
+0.11:Elapsed time performing explicit database commit operations:
+0.00:Elapsed time performing the Clipboard Page modifications:
+0.00:Elapsed time for reporting the Clipboard Page modifications to the Client:
